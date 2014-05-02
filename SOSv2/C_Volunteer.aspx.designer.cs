@@ -11,7 +11,7 @@ namespace SOSv2
 {
 
 
-    public partial class About
+    public partial class WebForm8
     {
     }
 }
