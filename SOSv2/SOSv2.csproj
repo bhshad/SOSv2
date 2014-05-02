@@ -151,8 +151,9 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Master.Master" />
-    <Content Include="soslogo.jpg" />
+    <Content Include="SOSbig.png" />
     <Content Include="StyleSheet.css" />
+    <Content Include="tagline 3DB9E6 CB262E.png" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config">
       <BrowseToURL>studentsopposingsubstances.aszurewebsites.et</BrowseToURL>
