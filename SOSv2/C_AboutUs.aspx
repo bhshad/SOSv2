@@ -5,7 +5,7 @@
     <div class="center-block">
     <h1>About Us</h1>
         <br />
-        <asp:Panel CssClass="panel panel-body" ID="Panel1" runat="server">
+        <asp:Panel CssClass="panel" ID="Panel1" runat="server">
             SOS, Students Opposing Substances, is a student-founded and student-driven non-profit organization that gives students the upper hand in 
             peer pressure related drug-use. The U.S Department of Health and Human Services says, "By the twelfth grade, about half of adolescents 
             have abused an illicit drug at least once." SOS is a tool to aid the teen in a peer pressure situation and an answer to a world wide cry 

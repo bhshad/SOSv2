@@ -115,6 +115,7 @@
     <Content Include="C_AboutUs.aspx" />
     <Content Include="C_Volunteer.aspx" />
     <Content Include="Default.aspx" />
+    <Content Include="C_SuccessStories.aspx" />
     <None Include="Properties\PublishProfiles\studentsopposingsubstances - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\studentsopposingsubstances - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
@@ -259,6 +260,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="C_SuccessStories.aspx.cs">
+      <DependentUpon>C_SuccessStories.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="C_SuccessStories.aspx.designer.cs">
+      <DependentUpon>C_SuccessStories.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup />
