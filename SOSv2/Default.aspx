@@ -40,7 +40,7 @@
       <div class="carousel-inner">
         <div class="item active">
           <div >
-              <img src="SOSLOGOz.jpg" />
+              <img src="soslogo.jpg" />
                 </div>
 
           <div class="container" style="padding-top:20px">
@@ -55,7 +55,8 @@
         </div>
         <div class="item">
           <div >
-              <img src="SOSLOGOz.jpg" />
+              <img src="soslogo.jpg" />
+              
            </div>
 
           <div class="container" style="padding-top:20px">
@@ -70,7 +71,7 @@
         </div>
         <div class="item">
           <div >
-              <img src="SOSLOGOz.jpg" />
+              <img src="soslogo.jpg" />
                 </div>
 
           <div class="container" style="padding-top:20px">

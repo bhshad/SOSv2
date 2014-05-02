@@ -118,7 +118,6 @@
     <None Include="Properties\PublishProfiles\studentsopposingsubstances - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\studentsopposingsubstances - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
-    <Content Include="SOSLOGOz.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -152,6 +151,7 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Master.Master" />
+    <Content Include="soslogo.jpg" />
     <Content Include="StyleSheet.css" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config">
