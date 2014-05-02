@@ -5,7 +5,7 @@
 
     <div class="center-block" style="text-align: center; width: 100%">
 
-        <h1>SOS News</h1>
+        <h1>Participating Schools</h1>
         <br />
 
         <h3>Site is under construction, update coming soon!</h3>

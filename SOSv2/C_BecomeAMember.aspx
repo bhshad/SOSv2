@@ -2,7 +2,10 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-        <p>By signing this contract, I agree not to take any drugs. I therefore agree to take this drug test at anytime 
+    
+    <h2>SOS Contract</h2>
+    <asp:Panel CssClass="panel panel-body" ID="Panel1" runat="server">
+    <p>By signing this contract, I agree not to take any drugs. I therefore agree to take this drug test at anytime 
     my parent(s)/guardian(s) wish. Should I uphold the requirements stated in this contract, I deem myself eligible to 
     receive certain benefits specified by my school and my parents. Should I not uphold the requirements of this 
     contract stated above, I am fully aware of the benefits that will be stripped from me by my parent(s)/guardian(s).</p>
@@ -23,5 +26,6 @@
 
     <p>Drug Test Information</p>
     <p>For more Information on the oral drug test given to the teen please go to the web address 
-    http://immunalysis.com/whyquantisal for lists of drugs the test can detect and proper usage.</p>
+    <a href="http://immunalysis.com/whyquantisal">Here</a> for lists of drugs the test can detect and proper usage.</p>
+        </asp:Panel>
 </asp:Content>
