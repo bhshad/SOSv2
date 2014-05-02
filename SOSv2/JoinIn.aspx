@@ -1,8 +1,7 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="C_JoinIn.aspx.cs" Inherits="Default3" %>
-
-<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="JoinIn.aspx.cs" Inherits="SOSv2.WebForm3" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="center-block" style="text-align: center; width: 100%">
 
         <h1>Join Us!</h1>
@@ -17,6 +16,4 @@
         <br />
         <asp:Button CssClass="btn btn-danger btn-lg" ID="Button1" runat="server" Text="Download Contract" />
     </div>
-    
 </asp:Content>
-

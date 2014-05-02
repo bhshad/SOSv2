@@ -1,8 +1,7 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="C_AboutUs.aspx.cs" Inherits="_Default" %>
-
-<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="AboutUs.aspx.cs" Inherits="SOSv2.WebForm7" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="center-block">
     <h1>About Us</h1>
         <br />
@@ -13,6 +12,4 @@
             for help from our future generations. To put it simple, it is a reason to say no, it is a commitment to stay clean, and it is putting our 
             future into our own hands. For more information. please contact us at <a href="info@studentsopposingsubstances.com">info@studentsopposingsubstances.com</a></asp:Panel>
 </div>
-
 </asp:Content>
-
