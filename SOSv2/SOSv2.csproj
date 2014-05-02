@@ -98,7 +98,6 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="About.aspx" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
@@ -107,18 +106,24 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="News.aspx" />
-    <Content Include="Mission.aspx" />
-    <Content Include="JoinIn.aspx" />
-    <Content Include="Donate.aspx" />
-    <Content Include="BecomeAMember.aspx" />
-    <Content Include="Contact.aspx" />
-    <Content Include="AboutUs.aspx" />
+    <Content Include="C_News.aspx" />
+    <Content Include="C_Mission.aspx" />
+    <Content Include="C_JoinIn.aspx" />
+    <Content Include="C_Donate.aspx" />
+    <Content Include="C_BecomeAMember.aspx" />
+    <Content Include="C_Contact.aspx" />
+    <Content Include="C_AboutUs.aspx" />
+    <Content Include="C_Volunteer.aspx" />
+    <Content Include="Default.aspx" />
+    <None Include="Properties\PublishProfiles\studentsopposingsubstances - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\studentsopposingsubstances - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="SOSLOGOz.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <Content Include="Scripts\jquery-1.11.0.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
@@ -144,13 +149,14 @@
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Scripts\_references.js" />
-    <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Master.Master" />
     <Content Include="StyleSheet.css" />
     <Content Include="ViewSwitcher.ascx" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <BrowseToURL>studentsopposingsubstances.aszurewebsites.et</BrowseToURL>
+    </Content>
     <Content Include="Bundle.config" />
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
@@ -164,21 +170,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
-    <Compile Include="About.aspx.cs">
-      <DependentUpon>About.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="About.aspx.designer.cs">
-      <DependentUpon>About.aspx</DependentUpon>
-    </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Default.aspx.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Default.aspx.designer.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -192,64 +184,80 @@
     </Compile>
     <Compile Include="Site.Mobile.Master.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
     </Compile>
-    <Compile Include="News.aspx.cs">
-      <DependentUpon>News.aspx</DependentUpon>
+    <Compile Include="C_News.aspx.cs">
+      <DependentUpon>C_News.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="News.aspx.designer.cs">
-      <DependentUpon>News.aspx</DependentUpon>
+    <Compile Include="C_News.aspx.designer.cs">
+      <DependentUpon>C_News.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Mission.aspx.cs">
-      <DependentUpon>Mission.aspx</DependentUpon>
+    <Compile Include="C_Mission.aspx.cs">
+      <DependentUpon>C_Mission.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Mission.aspx.designer.cs">
-      <DependentUpon>Mission.aspx</DependentUpon>
+    <Compile Include="C_Mission.aspx.designer.cs">
+      <DependentUpon>C_Mission.aspx</DependentUpon>
     </Compile>
-    <Compile Include="JoinIn.aspx.cs">
-      <DependentUpon>JoinIn.aspx</DependentUpon>
+    <Compile Include="C_JoinIn.aspx.cs">
+      <DependentUpon>C_JoinIn.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="JoinIn.aspx.designer.cs">
-      <DependentUpon>JoinIn.aspx</DependentUpon>
+    <Compile Include="C_JoinIn.aspx.designer.cs">
+      <DependentUpon>C_JoinIn.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Donate.aspx.cs">
-      <DependentUpon>Donate.aspx</DependentUpon>
+    <Compile Include="C_Donate.aspx.cs">
+      <DependentUpon>C_Donate.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Donate.aspx.designer.cs">
-      <DependentUpon>Donate.aspx</DependentUpon>
+    <Compile Include="C_Donate.aspx.designer.cs">
+      <DependentUpon>C_Donate.aspx</DependentUpon>
     </Compile>
-    <Compile Include="BecomeAMember.aspx.cs">
-      <DependentUpon>BecomeAMember.aspx</DependentUpon>
+    <Compile Include="C_BecomeAMember.aspx.cs">
+      <DependentUpon>C_BecomeAMember.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="BecomeAMember.aspx.designer.cs">
-      <DependentUpon>BecomeAMember.aspx</DependentUpon>
+    <Compile Include="C_BecomeAMember.aspx.designer.cs">
+      <DependentUpon>C_BecomeAMember.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Contact.aspx.cs">
-      <DependentUpon>Contact.aspx</DependentUpon>
+    <Compile Include="C_Contact.aspx.cs">
+      <DependentUpon>C_Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Contact.aspx.designer.cs">
-      <DependentUpon>Contact.aspx</DependentUpon>
+    <Compile Include="C_Contact.aspx.designer.cs">
+      <DependentUpon>C_Contact.aspx</DependentUpon>
     </Compile>
-    <Compile Include="AboutUs.aspx.cs">
-      <DependentUpon>AboutUs.aspx</DependentUpon>
+    <Compile Include="C_AboutUs.aspx.cs">
+      <DependentUpon>C_AboutUs.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AboutUs.aspx.designer.cs">
-      <DependentUpon>AboutUs.aspx</DependentUpon>
+    <Compile Include="C_AboutUs.aspx.designer.cs">
+      <DependentUpon>C_AboutUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="C_Volunteer.aspx.cs">
+      <DependentUpon>C_Volunteer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="C_Volunteer.aspx.designer.cs">
+      <DependentUpon>C_Volunteer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup />

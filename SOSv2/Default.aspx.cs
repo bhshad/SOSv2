@@ -5,15 +5,18 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-public partial class _Default : System.Web.UI.Page
+namespace SOSv2
 {
-    protected void Page_Load(object sender, EventArgs e)
+    public partial class WebForm9 : System.Web.UI.Page
     {
+        protected void Page_Load(object sender, EventArgs e)
+        {
 
-    }
+        }
 
-    protected void btn1_Click(object sender, EventArgs e)
-    {
-        Response.Redirect("C_BecomeAMember.aspx");
+        protected void btn1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("C_BecomeAMember.aspx");
+        }
     }
 }

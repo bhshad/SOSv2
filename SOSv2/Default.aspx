@@ -1,4 +1,5 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Master.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="SOSv2.WebForm9" %>
+
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
     <style type="text/css">
@@ -39,7 +40,7 @@
       <div class="carousel-inner">
         <div class="item active">
           <div >
-            <img src="soslogo.jpg" />
+              <img src="SOSLOGOz.jpg" />
                 </div>
 
           <div class="container" style="padding-top:20px">
@@ -54,8 +55,8 @@
         </div>
         <div class="item">
           <div >
-            <img src="soslogo.jpg" />
-                </div>
+              <img src="SOSLOGOz.jpg" />
+           </div>
 
           <div class="container" style="padding-top:20px">
             <div class="carousel-caption">
@@ -69,7 +70,7 @@
         </div>
         <div class="item">
           <div >
-            <img src="soslogo.jpg" />
+              <img src="SOSLOGOz.jpg" />
                 </div>
 
           <div class="container" style="padding-top:20px">
@@ -88,4 +89,3 @@
     </div><!-- /.carousel -->
     
 </asp:Content>
-
