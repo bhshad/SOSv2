@@ -291,6 +291,8 @@
     <Content Include="C_SuccessStories.aspx" />
     <Content Include="Content\kendo\2014.1.318\images\kendoui.woff" />
     <Content Include="Content\kendo\2014.1.318\images\kendoui.ttf" />
+    <Content Include="C_YourProfile.aspx" />
+    <Content Include="C_ParticipatingSchools.aspx" />
     <None Include="Properties\PublishProfiles\studentsopposingsubstances - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\studentsopposingsubstances - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
@@ -929,6 +931,20 @@
     </Compile>
     <Compile Include="C_SuccessStories.aspx.designer.cs">
       <DependentUpon>C_SuccessStories.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="C_YourProfile.aspx.cs">
+      <DependentUpon>C_YourProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="C_YourProfile.aspx.designer.cs">
+      <DependentUpon>C_YourProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="C_ParticipatingSchools.aspx.cs">
+      <DependentUpon>C_ParticipatingSchools.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="C_ParticipatingSchools.aspx.designer.cs">
+      <DependentUpon>C_ParticipatingSchools.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup />
